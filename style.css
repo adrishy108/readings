@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #333;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.file-tree {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.file-tree ul {
+    list-style-type: none;
+}
+
+.file-tree a {
+    color: #333;
+    text-decoration: none;
+}
+
+.file-tree a:hover {
+    text-decoration: underline;
+}
